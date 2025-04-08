@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Optional custom styles can be added here */
+.profile-card-transition {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card-transition:hover {
+  transform: translateY(-5px);
+}
